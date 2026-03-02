@@ -30,14 +30,14 @@ my goal has never been a job. it's building things that are genuinely useful.
     <td width="70%">
       <b>bodh (বোধ)</b><br>
       a morphology-aware Bengali tokenizer for LLMs.<br>
-      <a href="https://github.com/hmyousuf2010/bodh/blob/main/ROADMAP.md">view roadmap →</a>
+      <a href="https://github.com/hmyousuf2010/bodh">view repository →</a>
     </td>
   </tr>
 </table>
 
-current tokenizers like tiktoken or Llama-3 fragment Bengali into 3x to 4x more tokens than English. bengali speakers end up paying more compute and waiting longer for the exact same meaning. 
+the problem is compute inequality. right now, standard tokenizers (like tiktoken or Llama-3) fragment Bengali into 3x to 4x more tokens than English. this means bengali speakers are inherently forced to pay more compute, wait longer, and lose context windows just to express the exact same meaning.
 
-bodh aims to fix this. it uses a Rust core engine with 3-stage constrained BPE and Daachorse automaton inference. the target is under 1.5 tokens per word (down from ~4.0). it builds on top of recent papers like MorphTok<sup>[1]</sup> and SuperBPE<sup>[2]</sup>.
+bodh is being built to fix this at the ground level. it's a Rust-based core engine utilizing 3-stage constrained BPE and Daachorse automaton inference to drastically improve compression. by building on top of recent morphology-aware research like MorphTok<sup>[1]</sup> and SuperBPE<sup>[2]</sup>, the target is to bring Bengali down to under 1.5 tokens per word.
 
 this is what i think about most of the day.
 
