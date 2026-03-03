@@ -1,0 +1,59 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://github.com/hmyousuf2010/hmyousuf2010/schema/profile-card.schema.json",
+    "title": "Profile Card",
+    "description": "Schema for .github/profile-card.json — repos that include this file will appear on the GitHub profile README.",
+    "type": "object",
+    "required": [
+        "name",
+        "short_desc",
+        "logo"
+    ],
+    "properties": {
+        "name": {
+            "type": "string",
+            "description": "Display name shown in bold, e.g. 'bodh (বোধ)'"
+        },
+        "short_desc": {
+            "type": "string",
+            "description": "One-liner description shown in the table row."
+        },
+        "long_desc": {
+            "type": "string",
+            "description": "Longer description rendered inside a collapsible <details> block (markdown/HTML supported). Default collapsed. Omit to show no collapsible section."
+        },
+        "logo": {
+            "type": "object",
+            "description": "Theme-aware logo URLs (raw GitHub URLs recommended).",
+            "required": [
+                "dark",
+                "light",
+                "alt"
+            ],
+            "properties": {
+                "dark": {
+                    "type": "string",
+                    "format": "uri",
+                    "description": "Logo URL for dark mode (transparent background recommended)."
+                },
+                "light": {
+                    "type": "string",
+                    "format": "uri",
+                    "description": "Logo URL for light mode (solid background recommended)."
+                },
+                "alt": {
+                    "type": "string",
+                    "description": "Alt text for the logo image."
+                }
+            },
+            "additionalProperties": false
+        },
+        "priority": {
+            "type": "integer",
+            "description": "Sort order — lower number appears first. Default: 99.",
+            "default": 99,
+            "minimum": 1
+        }
+    },
+    "additionalProperties": false
+}

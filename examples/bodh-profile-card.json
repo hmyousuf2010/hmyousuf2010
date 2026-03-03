@@ -1,0 +1,11 @@
+{
+    "name": "bodh (বোধ)",
+    "short_desc": "a morphology-aware Bengali tokenizer for LLMs.",
+    "long_desc": "the problem is compute inequality. right now, standard tokenizers (like tiktoken or Llama-3) fragment Bengali into 3x to 4x more tokens than English. this means bengali speakers are inherently forced to pay more compute, wait longer, and lose context windows just to express the exact same meaning.\n\nbodh is being built to fix this at the ground level. it's a Rust-based core engine utilizing 3-stage constrained BPE and Daachorse automaton inference to drastically improve compression. by building on top of recent morphology-aware research like MorphTok<sup>[1]</sup> and SuperBPE<sup>[2]</sup>, the target is to bring Bengali down to under 1.5 tokens per word.\n\nthis is what i think about most of the day.",
+    "logo": {
+        "dark": "https://raw.githubusercontent.com/hmyousuf2010/bodh/main/brand/assets/logo/logo-500x200-transparent-1.png",
+        "light": "https://raw.githubusercontent.com/hmyousuf2010/bodh/main/brand/assets/logo/logo-500x200-solid.png",
+        "alt": "Bodh Logo"
+    },
+    "priority": 1
+}
