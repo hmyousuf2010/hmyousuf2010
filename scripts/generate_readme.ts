@@ -113,7 +113,7 @@ function renderCard(card: ProfileCard): string {
         html += `
 
 <details>
-<summary>more on this ↓</summary>
+<summary><b>learn more about <code>${name}</code></b></summary>
 <br>
 
 ${longDesc}
