@@ -39,7 +39,7 @@ my goal has never been a job. it's building things that are genuinely useful.
 </table>
 
 <details>
-<summary><b>learn more on <code>bodh (বোধ)</code></b></summary>
+<summary><b>learn more about <code>bodh (বোধ)</code></b></summary>
 <br>
 
 the problem is compute inequality. right now, standard tokenizers (like tiktoken or Llama-3) fragment Bengali into 3x to 4x more tokens than English. this means bengali speakers are inherently forced to pay more compute, wait longer, and lose context windows just to express the exact same meaning.
