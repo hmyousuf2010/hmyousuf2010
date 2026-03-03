@@ -105,7 +105,7 @@ open to collaborating on systems-level work, bengali NLP, or anything at the int
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=gmail&theme=dark" />
       <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=gmail&theme=light" />
-      <img alt="Email" src="https://skillicons.dev/icons?i=gmail&theme=light"  width="30" align="middle" />
+      <img alt="Email" src="https://skillicons.dev/icons?i=gmail&theme=light"  width="30" align="center" />
     </picture>
   </a> hmyousuf2010@gmail.com
 </h3>
