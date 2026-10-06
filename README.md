@@ -6,7 +6,7 @@
   </picture>
 </p>
 
-self-taught developer from bangladesh. 10th grader. the education system here runs on memorization but i run on curiosity.
+self-taught developer from bangladesh. 11th grader. the education system here runs on memorization but i run on curiosity.
 
 i picked up programming just to understand how things work under the hood. i stayed because it turns out you can build real things with a laptop and enough stubbornness. there are no bootcamps here. just documentation, source code and problems worth solving.
 
@@ -47,26 +47,6 @@ my goal has never been a job. it's building things that are genuinely useful.
       </picture>
     </td>
     <td><b>rust</b> ~ taking it seriously. bodh is how i learn: through a problem that actually demands it. memory layout, zero-cost abstractions, treating the compiler as a teacher.</td>
-  </tr>
-  <tr>
-    <td>
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=solidity&theme=dark" />
-        <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=solidity&theme=light" />
-        <img alt="Web3" src="https://skillicons.dev/icons?i=solidity&theme=light" width="90" />
-      </picture>
-    </td>
-    <td><b>cryptography & web3</b> ~ the math, not the hype. bip39 mnemonic generation, key derivation, protocol-level thinking.</td>
-  </tr>
-  <tr>
-    <td>
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=arduino&theme=dark" />
-        <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=arduino&theme=light" />
-        <img alt="Hardware" src="https://skillicons.dev/icons?i=arduino&theme=light" width="90" />
-      </picture>
-    </td>
-    <td><b>hardware</b> ~ ESP32, custom flight controllers, RC aircraft. parts cost money i don't have yet, so i channel the obsession into low-level software instead. same curiosity, different medium.</td>
   </tr>
 </table>
 
